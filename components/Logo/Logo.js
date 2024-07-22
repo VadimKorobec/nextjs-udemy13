@@ -1,5 +1,7 @@
+import styles from './Logo.module.css'
+
 function Logo() {
-    return<h2>logo</h2>
+    return<div className={styles.logo}>It's My Next Blog</div>
 }
 
 export default Logo;
