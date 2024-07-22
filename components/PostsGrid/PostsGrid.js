@@ -7,7 +7,7 @@ function PostsGrid({ posts }) {
     <ul className={styles.grid}>
       {posts.map((post) => (
         <li key={post.slug}>
-          <PostItem post={post} />
+          <PostItem item={post} />
         </li>
       ))}
     </ul>
